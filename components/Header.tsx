@@ -34,7 +34,7 @@ export default function Header() {
             {/* Right Section */}
             <div className="flex items-start gap-6">
                 {/* Button with updated padding and text casing */}
-                <button className="border border-black px-8 py-5 rounded-full text-base font-medium hover:bg-black hover:text-white transition-colors duration-300 mt-7 bg-white">
+                <button className="hidden md:block border border-black px-8 py-5 rounded-full text-base font-medium hover:bg-black hover:text-white transition-colors duration-300 mt-7 bg-white">
                     Work with us
                 </button>
 
@@ -96,3 +96,5 @@ export default function Header() {
         </header>
     );
 }
+
+
